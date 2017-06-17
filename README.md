@@ -5,7 +5,7 @@ A less-if scala library
 
 ```scala
 
-import org.scalax.BooleanExtesion._
+import org.scalax.BooleanExtension._
 
 2 > 1 ifTrue "truly" map {
   case Some(test) if test == "truly" => Some(test.length)
